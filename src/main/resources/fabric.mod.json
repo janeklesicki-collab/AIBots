@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "aibots",
+  "version": "${version}",
+  "name": "AI Boty",
+  "description": "Menu do wysylania botow na serwery (krok 1: wchodzenie i chodzenie).",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.aibots.client.AiBotsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
